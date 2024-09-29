@@ -13,7 +13,7 @@ function About() {
                 <p>
                     In every project ,I aim to push the boundaries of what's possible , combining innovative design with <span className='text-[#3decb8] font-semibold'>problem solving skills</span>. Whether its ensuring pixel-perfect detail or optimizing the user journey I bring a relentless focus on user satisfaction.
                 </p>
-                <p className='text-[#3decb8] font-semibold text-xl'>So, how about creating something extraordinary together !!</p>
+                <p className='text-[#3decb8] font-semibold text-xl'>So, how about creating something extraordinary together!!</p>
             </div>
             <div className='md:w-1/2 text-white grid grid-cols-1 md:grid-cols-2 gap-3'>
                     <div data-aos="fade-right" className='bg-[#1f9974] flex items-center gap-4 rounded-xl p-4'>
