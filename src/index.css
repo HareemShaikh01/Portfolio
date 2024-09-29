@@ -27,3 +27,14 @@ input::placeholder,textarea::placeholder{
     color: rgba(255, 255, 255, 0.822);
 }
 
+.dance {
+    animation: danceAnimation 1s infinite; 
+}
+  
+  @keyframes danceAnimation {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0); }
+  }
+  
+

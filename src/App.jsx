@@ -18,12 +18,6 @@ function App() {
       duration: 600, 
     });
 
-    gsap.to(".uplinker",{
-      y:-20,
-      yoyo:true,
-      repeat:Infinity,
-    })
-
     
   }, []);
   
@@ -42,7 +36,7 @@ function App() {
     <Contact/>
 
     <HashLink to="#" smooth>
-    <i className="uplinker fa-solid fa-angles-down fixed bottom-6 right-6 text-white text-2xl rotate-180"></i> 
+    <i className="dance fa-solid fa-angles-down fixed bottom-6 right-6 text-white text-2xl rotate-180"></i> 
       </HashLink>      
     </div>
   )

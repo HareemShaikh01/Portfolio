@@ -4,16 +4,6 @@ import gsap from 'gsap';
 
 function Contact() {
     const formRef = useRef();
-    const icon = useRef();
-
-    useEffect(()=>{
-        gsap.to(icon.current,{
-            yoyo:true,
-            repeat:Infinity,
-            y:-15
-        })
-
-    },[])
 
 
     const sendEmail = (e) => {
@@ -47,7 +37,7 @@ function Contact() {
                     <h1 data-aos="fade-right" className='text-2xl md:text-3xl font-semibold '>Drop me a message</h1>
                     <p data-aos="fade-left" className='text-sm text-[#b8c0bd]'>Reach out to discuss potential projects, collaborations, or any questions. I'm always open to new opportunities and connections.</p>
                     <a href="https://www.linkedin.com/in/hareem-shaikh-6095772a2">
-                    <p data-aos="fade-right" data-aos-delay="300"> Let's connect! <i ref={icon} className="fa-brands fa-linkedin text-xl px-2 cursor-pointer text-[#39b69b]"></i></p>
+                    <p data-aos="fade-right" data-aos-delay="300"> Let's connect! <i className="dance fa-brands fa-linkedin text-xl px-2 cursor-pointer text-[#39b69b]"></i></p>
 
                     </a>
                 </div>
