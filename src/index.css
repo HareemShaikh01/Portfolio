@@ -29,12 +29,15 @@ input::placeholder,textarea::placeholder{
 
 .dance {
     animation: danceAnimation 1s infinite; 
+
 }
-  
-  @keyframes danceAnimation {
-    0% { transform: translateY(0); }
-    50% { transform: translateY(-15px); }
-    100% { transform: translateY(0); }
+@keyframes danceAnimation {
+    0% { transform: translateY(0) rotateZ(180deg); }
+    50% { transform: translateY(-20px) rotateZ(180deg); }
+    100% { transform: translateY(0) rotateZ(180deg); }
   }
   
+  
+
+
 

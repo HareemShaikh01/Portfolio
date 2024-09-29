@@ -36,9 +36,9 @@ function App() {
     <Contact/>
 
     <HashLink to="#" smooth>
-    <i className="dance fa-solid fa-angles-down fixed bottom-6 right-6 text-white text-2xl rotate-180"></i> 
+    <i className="dance uplink fa-solid fa-angles-down fixed bottom-6 right-6 text-white text-2xl"></i> 
       </HashLink>      
-    </div>
+    </div> 
   )
 }
 
