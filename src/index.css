@@ -27,7 +27,3 @@ input::placeholder,textarea::placeholder{
     color: rgba(255, 255, 255, 0.822);
 }
 
-body{
-    width: 100vw;
-    overflow-x: hidden;
-}
