@@ -29,7 +29,7 @@ function Portfolio() {
           <h1 data-aos="fade-right" className='text-[#31d4a4] text-2xl font-semibold'>Bakery Delight</h1>
           <img data-aos="zoom-in" src="/product-list-with-cart-ten.vercel.app_ (2).png" alt="ebake" />
           <p className='text-[#abafae]'>
-            Bakery Delight is a responsive e-commerce platform where users can browse and select bakery items, manage their cart, and confirm their orders, ensuring a seamless shopping experience.
+            Bakery Delight is a responsive e-commerce platform where users can browse and select bakery items, manage their cart, and confirm their orders.
           </p>
           <button data-aos="fade-up" className=' border-2 border-[#b0b4b2] text-white italic w-44 p-1 button'><a href="https://product-list-with-cart-ten.vercel.app/">Live Website URL</a></button>
 
